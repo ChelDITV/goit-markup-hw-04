@@ -101,12 +101,11 @@ body {
   align-items: center;
 }
 
-.page-addres-a:hover,
-.page-addres-a:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.page-addres-link:hover,
+.page-addres-link:focus,
+.menu-link:hover,
+.menu-link:focus,
+.menu-link.current {
   color: #404bbf;
 }
 
@@ -127,6 +126,21 @@ body {
   margin-right: 76px;
 }
 
+.menu-link.current {
+  position: relative;
+}
+
+.menu-link.current::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: -1px;
+  border-radius: 2px;
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+}
+
 .page-logo-color {
   color: #2e2f42;
 }
@@ -139,15 +153,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #404bbf;
 }
 
 .nav-menu {
