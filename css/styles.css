@@ -451,15 +451,15 @@ body {
   margin-bottom: 16px;
 }
 
-.team-item-icon {
+.footer-item-icon {
   height: 40px;
   width: 40px;
 }
 
-.team-list-icon {
-  gap: 16px;
+.footer-list-icom {
   display: flex;
   justify-content: center;
+  gap: 16px;
 }
 
 .footer-logo {
