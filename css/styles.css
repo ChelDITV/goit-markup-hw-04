@@ -452,11 +452,14 @@ body {
 }
 
 .team-item-icon {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
   height: 40px;
   width: 40px;
+}
+
+.team-list-icon {
+  gap: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-logo {
@@ -478,4 +481,9 @@ body {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.footer-icon {
+  fill: #f4f4fd;
+}
+
 /* ============ FOTTER STYLES ============ */
