@@ -453,11 +453,29 @@ body {
 
 .team-item-icon {
   display: flex;
+  justify-content: center;
   gap: 16px;
+  height: 40px;
+  width: 40px;
 }
 
 .footer-logo {
   margin-right: 120px;
 }
 
+.footer-a-icon:hover,
+.footer-a-icon:focus {
+  background-color: #31d0aa;
+}
+
+.footer-a-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /* ============ FOTTER STYLES ============ */
